@@ -3,8 +3,8 @@ import Discord, { MessageAttachment, MessageEmbed } from 'discord.js'
 import * as champions from './json/champions.json' assert {type: "json"}
 import * as queues from './json/queues.json' assert {type: "json"}
 const client = new Discord.Client()
-const token = 'OTQyOTIxMTY3Nzc2Mzg3MDcy.YgrhxQ.NsaNRcZXAssi19djtiCxiTLtBQY'
-const config = {mode: 'no-cors', method: 'GET', headers: {'X-Riot-Token': 'RGAPI-246e8412-274c-44a5-995d-660db07d62cb'}}
+const token = null
+const config = {mode: 'no-cors', method: 'GET', headers: {'X-Riot-Token': null}}
 const urls = {
   summoner: 'https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/',
   liveGame: 'https://euw1.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/',
